@@ -1,0 +1,212 @@
+# ============================================================
+# CODE ADVENTURE - BANCO DE PREGUNTAS GRADO 7
+# Basado en el Glosario Tecnico de Sistemas
+# Temas: Tinkercad, mBlock, mecanismos, logica y micro:bit
+# ============================================================
+# INSTRUCCIONES:
+# 1. No cambies los nombres de las secciones entre corchetes.
+# 2. Separa cada campo con el simbolo |.
+# 3. Las lineas que empiezan con # son comentarios.
+# 4. Para escribir saltos de linea dentro de un codigo usa \n.
+# 5. Guarda el archivo como UTF-8.
+# ============================================================
+
+[QUIZ]
+¿Qué comando de Tinkercad une dos o más formas geométricas?|Agrupar|Agrupar|Desagrupar|Duplicar|Alinear
+¿Qué combinación de teclas activa normalmente el comando Agrupar en Tinkercad?|Ctrl + G|Ctrl + G|Ctrl + C|Ctrl + Z|Ctrl + P
+¿Qué permite hacer una forma configurada como Hueco en Tinkercad?|Sustraer material de un sólido|Sustraer material de un sólido|Cambiar el color|Duplicar una pieza|Mover la cámara
+¿Qué debe hacerse para que un hueco perfore permanentemente un sólido?|Agruparlo con el sólido|Agruparlo con el sólido|Cambiarlo de color|Ocultarlo|Bloquearlo
+¿Qué herramienta digital se usa para diseñar modelos 3D con figuras básicas?|Tinkercad|Tinkercad|mBlock|Microbit|Paint
+¿Qué operador lógico exige que dos condiciones sean verdaderas al mismo tiempo?|AND|AND|OR|NOT|REPETIR
+¿Qué operador lógico es verdadero cuando al menos una condición es verdadera?|OR|OR|AND|BUCLE|VARIABLE
+¿Qué resultado produce AND si una de sus condiciones es falsa?|Falso|Falso|Verdadero|Indefinido|Repetición
+¿Qué resultado produce OR si una condición es verdadera y otra es falsa?|Verdadero|Verdadero|Falso|Error|Vacío
+¿Qué estructura permite repetir instrucciones de manera cíclica?|Bucle|Bucle|Condicional|Variable|Disfraz
+¿Qué bloque de mBlock puede ejecutar instrucciones sin detenerse?|Para siempre|Para siempre|Si entonces|Esperar|Cambiar disfraz
+¿Qué estructura permite que un programa tome decisiones?|Condicional|Condicional|Bucle|Objeto|Engranaje
+¿Qué estructura se representa normalmente como si... entonces?|Condicional|Condicional|Variable|Bucle|Operador OR
+¿Qué es un objeto en mBlock?|Una entidad o personaje con código propio|Una entidad o personaje con código propio|Una forma hueca de Tinkercad|Una rueda dentada|Un dato numérico
+¿Qué nombre recibe cada apariencia gráfica de un objeto en mBlock?|Disfraz|Disfraz|Variable|Escenario|Bucle
+¿Para qué pueden utilizarse varios disfraces en un objeto?|Para crear animaciones|Para crear animaciones|Para guardar números|Para perforar sólidos|Para medir fuerza
+¿Qué estructura almacena datos que pueden cambiar durante la ejecución?|Variable|Variable|Condicional|Bucle|Operador lógico
+¿Cuál es un uso adecuado de una variable?|Guardar una puntuación|Guardar una puntuación|Perforar una figura|Transmitir torque|Crear una articulación
+¿Qué puede almacenar una variable en mBlock?|Valores numéricos o alfanuméricos|Valores numéricos o alfanuméricos|Solo imágenes|Solo sonidos|Únicamente valores verdaderos
+¿Qué significa programar?|Diseñar y ordenar instrucciones para resolver una tarea|Diseñar y ordenar instrucciones para resolver una tarea|Unir figuras 3D|Mover una palanca|Crear un engranaje
+¿Por qué es importante mantener ordenado un programa por bloques?|Ayuda a evitar errores lógicos|Ayuda a evitar errores lógicos|Aumenta el peso del robot|Elimina todos los sensores|Convierte sólidos en huecos
+¿Qué es un engranaje según el glosario?|Una rueda dentada de mayor dimensión relativa|Una rueda dentada de mayor dimensión relativa|Una cuerda flexible|Una tarjeta electrónica|Una forma hueca
+¿Qué es un piñón?|Una rueda dentada de menor diámetro|Una rueda dentada de menor diámetro|Una rueda sin dientes|Una palanca|Una polea
+¿Qué pueden transmitir los engranajes?|Potencia y movimiento|Potencia y movimiento|Texto e imágenes|Variables y disfraces|Colores y sonidos
+¿Qué puede modificar un sistema de engranajes?|El torque y la velocidad de rotación|El torque y la velocidad de rotación|El nombre del objeto|La memoria del computador|La forma de una condición
+¿Qué pieza permite que otra parte gire a su alrededor?|Eje|Eje|Cable|Carga|Tendón
+¿Qué máquina simple tiene una rueda con un canal para una cuerda?|Polea|Polea|Palanca|Engranaje|Articulación
+¿Qué es un mecanismo?|Un conjunto de piezas que producen movimiento|Un conjunto de piezas que producen movimiento|Un único bloque de código|Una variable booleana|Una figura decorativa
+¿Qué es una máquina?|Un objeto creado para facilitar una tarea con fuerza y movimiento|Un objeto creado para facilitar una tarea con fuerza y movimiento|Una condición lógica|Un disfraz animado|Un dato almacenado
+¿Qué permite una articulación en una mano mecánica?|Doblar o mover partes unidas|Doblar o mover partes unidas|Guardar puntuaciones|Diseñar código|Perforar sólidos
+¿Qué elemento puede representar un tendón en una mano mecánica?|Un cable o una cuerda|Un cable o una cuerda|Un engranaje grande|Una variable|Un bloque condicional
+¿Qué mecanismo usa un punto de apoyo para mover una carga?|Palanca|Palanca|Polea|Variable|Disfraz
+¿Cómo se llama también el punto de apoyo de una palanca?|Fulcro|Fulcro|Eje motriz|Torque|Carga
+¿Qué es la fuerza?|Un empuje o jalón capaz de producir movimiento|Un empuje o jalón capaz de producir movimiento|Una figura hueca|Una condición falsa|Un bloque de sonido
+¿Qué es la carga en un mecanismo?|El objeto o peso que se desea mover|El objeto o peso que se desea mover|La fuerza que siempre ayuda|El centro de un engranaje|El código de un objeto
+¿Qué es la resistencia?|La fuerza que se opone al movimiento|La fuerza que se opone al movimiento|La velocidad de un programa|La apariencia de un objeto|La unión de dos condiciones
+¿Qué función cumple un cable en un mecanismo?|Tirar de una pieza para producir movimiento|Tirar de una pieza para producir movimiento|Almacenar datos|Crear huecos|Comparar condiciones
+¿Qué es la micro:bit?|Una tarjeta electrónica programable|Una tarjeta electrónica programable|Un programa de modelado 3D|Una rueda dentada|Una máquina simple
+¿Qué componente de la micro:bit permite mostrar símbolos y números?|Matriz de luces LED|Matriz de luces LED|Engranaje|Polea|Disfraz
+¿Qué elementos de entrada tiene la micro:bit?|Botones y sensores|Botones y sensores|Solo engranajes|Únicamente cables|Formas huecas
+¿Qué proyectos pueden realizarse con una micro:bit?|Juegos, alarmas, robots y sistemas de medición|Juegos, alarmas, robots y sistemas de medición|Solo dibujos 3D|Únicamente documentos|Solamente animaciones
+¿Qué tipo de comunicación puede tener la micro:bit?|Comunicación inalámbrica|Comunicación inalámbrica|Solo comunicación por engranajes|Comunicación mecánica|Ninguna comunicación
+¿Qué concepto conecta dos o más condiciones para obtener verdadero o falso?|Operador lógico|Operador lógico|Disfraz|Articulación|Hueco
+¿Qué opción representa una secuencia lógica correcta para automatizar una tarea?|Diseñar, ordenar y ejecutar instrucciones|Diseñar, ordenar y ejecutar instrucciones|Mover piezas al azar|Crear un hueco sin agrupar|Cambiar disfraces sin evento
+¿Qué herramienta corresponde principalmente a programación por bloques?|mBlock|mBlock|Tinkercad|Procesador de texto|Calculadora
+
+[AHORCADO]
+AGRUPAR|Comando de Tinkercad que une formas y aplica perforaciones
+HUECO|Propiedad usada para sustraer material de un sólido
+TINKERCAD|Herramienta digital para diseñar modelos tridimensionales
+BUCLE|Estructura que repite instrucciones
+CONDICIONAL|Estructura que permite tomar decisiones
+VARIABLE|Contenedor que almacena un valor modificable
+DISFRAZ|Apariencia gráfica que puede adoptar un objeto
+OBJETO|Entidad o personaje autónomo dentro de mBlock
+PROGRAMAR|Diseñar y ordenar instrucciones para resolver una tarea
+ORDENADO|Principio que organiza instrucciones o cuerpos de manera secuencial
+ENGRANAJE|Rueda dentada de mayor dimensión relativa
+PIÑON|Rueda dentada pequeña dentro de un tren de engranajes
+POLEA|Rueda con canal por donde pasa una cuerda o cable
+MAQUINA|Objeto creado para facilitar una tarea
+MECANISMO|Conjunto de piezas que trabajan juntas para producir movimiento
+ARTICULACION|Union entre dos partes que permite movimiento
+TENDON|Elemento que transmite fuerza para mover una parte
+PALANCA|Mecanismo que usa un punto de apoyo
+FULCRO|Otro nombre del punto de apoyo
+FUERZA|Empuje o jalon capaz de mover un objeto
+CARGA|Objeto o peso que se desea mover
+RESISTENCIA|Fuerza que se opone al movimiento
+CABLE|Elemento flexible que tira de una pieza
+EJE|Pieza alrededor de la cual gira otra parte
+MICROBIT|Tarjeta electronica programable con luces botones y sensores
+
+[MEMORIA]
+Agrupar|Une dos o más formas en Tinkercad
+Ctrl + G|Atajo para agrupar formas
+Hueco|Sustrae material de un sólido
+Tinkercad|Diseño de modelos 3D con figuras básicas
+AND|Exige que todas las condiciones sean verdaderas
+OR|Es verdadero si al menos una condición lo es
+Bucle|Repite instrucciones
+Condicional|Toma decisiones con una condición
+Disfraz|Apariencia gráfica de un objeto
+Objeto|Entidad o personaje con código propio en mBlock
+Ordenado|Organización limpia y secuencial
+Programar|Diseñar y secuenciar instrucciones
+Variable|Almacena un valor que puede cambiar
+Engranaje|Rueda dentada de mayor dimensión relativa
+Piñón|Rueda dentada de menor diámetro
+Polea|Rueda con canal para una cuerda
+Máquina|Facilita una tarea mediante fuerza y movimiento
+Mecanismo|Conjunto de piezas que producen movimiento
+Articulación|Unión móvil entre dos partes
+Tendón|Transmite fuerza para mover una parte
+Palanca|Mecanismo que usa un punto de apoyo
+Fulcro|Punto donde gira una palanca
+Fuerza|Empuje o jalón
+Carga|Objeto o peso que se desea mover
+Resistencia|Fuerza que se opone al movimiento
+Cable|Elemento flexible que tira de una pieza
+Eje|Punto alrededor del cual gira una parte
+Micro:bit|Tarjeta electrónica programable
+Matriz LED|Permite mostrar símbolos y números
+Sensor|Detecta cambios del entorno
+
+[VF]
+Agrupar permite unir dos o más formas en Tinkercad.|Verdadero
+El atajo habitual para agrupar en Tinkercad es Ctrl + G.|Verdadero
+Una forma configurada como hueco agrega más material al sólido.|Falso
+Para aplicar una perforación permanente se agrupan el hueco y el sólido.|Verdadero
+Tinkercad se utiliza para diseñar modelos 3D con figuras básicas.|Verdadero
+El operador AND es verdadero aunque una de las condiciones sea falsa.|Falso
+El operador AND exige que las dos condiciones sean verdaderas.|Verdadero
+El operador OR es verdadero si al menos una condición es verdadera.|Verdadero
+El operador OR exige que todas las condiciones sean falsas.|Falso
+Un bucle permite repetir un conjunto de instrucciones.|Verdadero
+El bloque para siempre es un ejemplo de repetición.|Verdadero
+Una condicional ejecuta acciones sin evaluar ninguna condición.|Falso
+La estructura si... entonces es una condicional.|Verdadero
+Un disfraz es una apariencia gráfica de un objeto en mBlock.|Verdadero
+Un objeto en mBlock no puede tener código propio.|Falso
+Una variable almacena valores que pueden cambiar durante la ejecución.|Verdadero
+Las variables solo pueden guardar imágenes.|Falso
+Una variable puede registrar la lectura de un sensor.|Verdadero
+Programar consiste en organizar instrucciones para resolver una tarea.|Verdadero
+Mantener el código ordenado puede reducir errores lógicos.|Verdadero
+Un engranaje es una rueda dentada.|Verdadero
+El piñón suele tener mayor diámetro que el engranaje principal.|Falso
+Los engranajes pueden modificar el torque y la velocidad.|Verdadero
+Una polea tiene un canal por el que pasa una cuerda o cable.|Verdadero
+Una máquina siempre está formada por una sola pieza.|Falso
+Un mecanismo es un conjunto de piezas que trabajan juntas.|Verdadero
+Una articulación impide completamente el movimiento entre dos partes.|Falso
+Un tendón puede representarse con una cuerda o cable.|Verdadero
+Una palanca utiliza un punto de apoyo.|Verdadero
+El fulcro es otro nombre para el punto de apoyo.|Verdadero
+La fuerza puede ser un empuje o un jalón.|Verdadero
+La carga es la fuerza que siempre se opone al movimiento.|Falso
+La resistencia es una fuerza que se opone al movimiento.|Verdadero
+Un eje es una pieza alrededor de la cual puede girar otra parte.|Verdadero
+La micro:bit es una tarjeta electrónica programable.|Verdadero
+La micro:bit no tiene botones ni sensores.|Falso
+La matriz LED de la micro:bit puede mostrar símbolos.|Verdadero
+La micro:bit puede utilizarse para construir alarmas y robots.|Verdadero
+Un operador lógico conecta condiciones y produce un resultado verdadero o falso.|Verdadero
+mBlock es una herramienta relacionada con la programación por bloques.|Verdadero
+
+[COMPLETAR]
+En Tinkercad, selecciono un sólido y un hueco y uso ____ para crear una perforación permanente.|Agrupar|Agrupar|Duplicar|Separar|Ocultar
+El atajo de teclado para agrupar formas es ____.|Ctrl + G|Ctrl + G|Ctrl + C|Ctrl + X|Ctrl + S
+Si condición1 es verdadera ____ condición2 también es verdadera, se ejecuta la acción cuando uso AND.|y|y|o|pero|nunca
+El operador ____ devuelve verdadero cuando al menos una de las condiciones es verdadera.|OR|OR|AND|BUCLE|VARIABLE
+Un bloque ____ permite repetir instrucciones varias veces.|bucle|bucle|condicional|disfraz|objeto
+La estructura ____ entonces permite tomar una decisión en mBlock.|si|si|repetir|esperar|mostrar
+Para guardar la puntuación de un juego debo crear una ____.|variable|variable|polea|palanca|articulación
+Las diferentes apariencias de un objeto reciben el nombre de ____.|disfraces|disfraces|variables|huecos|engranajes
+Un personaje programable dentro de mBlock se denomina ____.|objeto|objeto|hueco|piñón|carga
+Una rueda dentada pequeña dentro de un tren de engranajes es un ____.|piñón|piñón|eje|cable|fulcro
+Una rueda con un canal por donde pasa una cuerda es una ____.|polea|polea|palanca|variable|articulación
+El lugar donde una palanca gira se llama ____.|punto de apoyo|punto de apoyo|resistencia|carga|tendón
+El empuje o jalón que mueve una pieza se denomina ____.|fuerza|fuerza|carga|disfraz|hueco
+El objeto o peso que se desea mover recibe el nombre de ____.|carga|carga|resistencia|eje|bucle
+La fuerza que se opone al movimiento se llama ____.|resistencia|resistencia|carga|torque|variable
+En una mano mecánica, una cuerda puede representar un ____.|tendón|tendón|engranaje|fulcro|objeto
+La pieza alrededor de la cual gira otra parte es el ____.|eje|eje|cable|disfraz|operador
+La tarjeta programable con luces, botones y sensores es la ____.|micro:bit|micro:bit|polea|Tinkercad|palanca
+
+[DEBUG]
+En Tinkercad se colocó una forma como hueco sobre un sólido, pero no aparece la perforación.|Falta seleccionar ambas formas y agruparlas|Falta seleccionar ambas formas y agruparlas|Debe cambiarse el hueco a sólido|Debe duplicarse el objeto|Debe mover la cámara
+Un programa usa AND entre dos condiciones, pero solo una es verdadera y se espera que la acción ocurra.|Debe usarse OR si basta con una condición verdadera|Debe usarse OR si basta con una condición verdadera|Debe eliminarse la variable|Debe crearse un engranaje|Debe usarse un hueco
+Un programa usa OR, pero se desea que la acción ocurra únicamente cuando las dos condiciones sean verdaderas.|Debe cambiarse OR por AND|Debe cambiarse OR por AND|Debe agregarse un disfraz|Debe eliminarse el objeto|Debe usarse una polea
+Un conjunto de bloques debe ejecutarse cinco veces, pero fue colocado sin ningún bloque de repetición.|Falta un bucle repetir|Falta un bucle repetir|Falta un hueco|Falta un engranaje|Falta un disfraz
+La puntuación del juego siempre vuelve a cero porque no se guarda en ningún contenedor de datos.|Falta una variable para almacenar la puntuación|Falta una variable para almacenar la puntuación|Falta un cable|Falta una polea|Falta un disfraz
+Un objeto debería cambiar de apariencia, pero solo tiene un disfraz.|Debe agregarse otro disfraz y programar el cambio|Debe agregarse otro disfraz y programar el cambio|Debe convertirlo en hueco|Debe agregar un engranaje|Debe eliminar el objeto
+Los bloques de un programa están desordenados y la acción final ocurre antes de leer el sensor.|Debe reorganizarse la secuencia de instrucciones|Debe reorganizarse la secuencia de instrucciones|Debe cambiarse el color del objeto|Debe añadirse una polea|Debe borrar la variable
+Una mano mecánica no puede doblar sus dedos porque las piezas fueron unidas de forma rígida.|Faltan articulaciones que permitan el movimiento|Faltan articulaciones que permitan el movimiento|Falta una variable|Falta un bloque OR|Falta un disfraz
+El cable de una mano mecánica está suelto y no transmite movimiento al dedo.|Debe conectarse para que funcione como tendón|Debe conectarse para que funcione como tendón|Debe convertirse en engranaje|Debe cambiarse por una variable|Debe eliminarse el eje
+Una palanca no gira porque no tiene un lugar definido para apoyarse.|Falta el punto de apoyo o fulcro|Falta el punto de apoyo o fulcro|Falta una condicional|Falta un disfraz|Falta una forma hueca
+Un engranaje gira, pero el segundo no recibe movimiento porque sus dientes no están en contacto.|Deben acoplarse correctamente los engranajes|Deben acoplarse correctamente los engranajes|Debe agregarse una variable|Debe crear un hueco|Debe cambiarse a OR
+Una rueda gira fuera de su centro y se desplaza en lugar de rotar de manera estable.|El eje está mal ubicado|El eje está mal ubicado|El operador lógico es incorrecto|Falta una carga|Falta un disfraz
+La micro:bit debe mostrar un símbolo, pero el programa no incluye ningún bloque para encender la matriz LED.|Falta programar la matriz de luces LED|Falta programar la matriz de luces LED|Falta una polea|Falta un hueco|Falta un engranaje
+La alarma con micro:bit nunca se activa porque no se evalúa la lectura del sensor.|Falta una condicional que compare la lectura|Falta una condicional que compare la lectura|Falta un piñón|Falta un disfraz|Falta agrupar formas
+Una máquina tiene varias piezas, pero ninguna está conectada con otra.|No existe un mecanismo funcional entre las piezas|No existe un mecanismo funcional entre las piezas|Falta una variable de texto|Falta el operador OR|Falta un hueco
+Un estudiante escribió una secuencia de instrucciones al azar y el robot no completa la tarea.|Debe ordenar el algoritmo de forma lógica|Debe ordenar el algoritmo de forma lógica|Debe cambiar la rueda por una polea|Debe crear un disfraz|Debe usar únicamente OR
+
+[ORDENAR]
+Crea una perforación en una pieza de Tinkercad|Insertar un sólido|Insertar una segunda forma|Convertir la segunda forma en hueco|Alinear el hueco con el sólido|Seleccionar ambas formas|Agrupar
+Programa una decisión sencilla en mBlock|Iniciar el programa|Leer o establecer una condición|Agregar el bloque si... entonces|Colocar la acción dentro del bloque|Ejecutar y comprobar el resultado
+Usa AND para controlar una acción|Definir la primera condición|Definir la segunda condición|Conectar las condiciones con AND|Colocar el resultado dentro de una condicional|Probar con ambas condiciones verdaderas
+Usa OR para activar una alarma|Leer el primer sensor|Leer el segundo sensor|Conectar las condiciones con OR|Agregar la acción de alarma|Probar activando al menos un sensor
+Crea una animación con disfraces|Seleccionar un objeto|Agregar varios disfraces|Iniciar el programa con un evento|Cambiar al siguiente disfraz|Esperar un instante|Repetir la secuencia
+Registra una puntuación en mBlock|Crear una variable llamada puntuación|Asignar el valor inicial cero|Detectar una respuesta correcta|Aumentar la variable|Mostrar la puntuación
+Construye un tren de engranajes|Seleccionar un engranaje grande|Seleccionar un piñón compatible|Ubicar sus dientes en contacto|Alinear los ejes|Probar el sentido y la velocidad de giro
+Construye una palanca sencilla|Elegir una barra rígida|Definir el punto de apoyo|Colocar la carga|Aplicar una fuerza en el extremo opuesto|Observar el movimiento
+Diseña un dedo de mano mecánica|Crear las piezas del dedo|Unirlas mediante articulaciones|Colocar un cable como tendón|Fijar el cable al extremo móvil|Halar el cable para probar el movimiento
+Programa una alarma con micro:bit|Iniciar el programa|Leer un botón o sensor|Comparar la lectura con una condición|Activar luces o sonido|Probar diferentes entradas
+Diseña y programa un proyecto tecnológico|Identificar la necesidad|Proponer una solución|Diseñar el modelo o mecanismo|Programar las instrucciones|Construir el prototipo|Probar y corregir errores
+Organiza un algoritmo antes de ejecutarlo|Definir el objetivo|Identificar los datos de entrada|Ordenar las instrucciones|Ejecutar la secuencia|Revisar el resultado|Corregir los errores

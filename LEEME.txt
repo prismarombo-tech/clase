@@ -1,0 +1,76 @@
+CODE ADVENTURE - RECORD GLOBAL CON SUPABASE
+============================================
+
+ARCHIVOS
+--------
+index.html
+preguntas.txt
+supabase_setup.sql
+LEEME.txt
+
+IMPORTANTE: NO DAÑA LO QUE YA EXISTE
+------------------------------------
+Esta version utiliza una tabla nueva y exclusiva:
+
+public.code_adventure_global_records_v1
+
+El archivo supabase_setup.sql NO borra, renombra ni modifica otras tablas.
+Las politicas RLS se aplican solamente a esa tabla.
+
+PASO 1 - CONFIGURAR SUPABASE UNA SOLA VEZ
+-----------------------------------------
+1. Entra a tu proyecto Supabase.
+2. Abre SQL Editor.
+3. Crea una consulta nueva.
+4. Copia TODO el contenido de supabase_setup.sql.
+5. Ejecutalo con Run.
+
+El SQL crea una tabla independiente y habilita RLS.
+Los visitantes de la pagina solo tienen permiso para:
+- SELECT: ver records.
+- INSERT: registrar un nuevo resultado.
+
+No tienen permiso para UPDATE ni DELETE.
+
+PASO 2 - SUBIR A GITHUB
+-----------------------
+Sube a la raiz del repositorio:
+- index.html
+- preguntas.txt
+- LEEME.txt
+
+supabase_setup.sql no necesita publicarse para que el juego funcione. Puedes
+conservarlo como respaldo o subirlo tambien al repositorio si lo deseas.
+
+PASO 3 - PROBAR
+---------------
+Abre el juego desde dos computadores o navegadores diferentes.
+Cuando un estudiante supere un reto, el record se guarda en Supabase.
+Al pulsar "Actualizar records" o al recargar la pagina, ambos equipos deben
+ver el mismo ranking.
+
+RANKING
+-------
+- Los mejores 5 aparecen directamente.
+- Los puestos 6 en adelante se muestran con "Ver otros records".
+- Se conserva el recorrido de cada resultado.
+- La pagina consulta hasta 200 resultados ordenados por puntuacion y errores.
+
+PREGUNTAS
+---------
+Para cambiar las preguntas solo edita preguntas.txt en GitHub.
+No necesitas cambiar index.html ni Supabase.
+
+SEGURIDAD
+---------
+La publishable key puede estar en el HTML: esta diseñada para clientes web.
+La seguridad depende de RLS y de los permisos de la tabla.
+Nunca reemplaces la publishable key por una secret key o service_role key.
+
+LIMITACION IMPORTANTE
+---------------------
+Como los estudiantes no inician sesion, cualquiera que conozca la URL del
+proyecto y la publishable key puede intentar insertar resultados falsos por la
+API. No puede modificar o borrar records existentes con las politicas incluidas.
+Si mas adelante necesitas identificar estudiantes de forma verificable o evitar
+spam, conviene agregar Supabase Auth o una Edge Function.
